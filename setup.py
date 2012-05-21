@@ -8,7 +8,7 @@ except ImportError:
 
 setup(
     name="mdemos.all",
-    version="0.1.0b",
+    version="0.1.2",
     url="http://moksha.fedorahosted.org",
     description="Meta-package to install all Moksha demo apps",
     long_description="",
@@ -22,6 +22,7 @@ setup(
         "mdemos.menus",
         "mdemos.metrics",
         "mdemos.chat",
-        "mdemos.feeds",  # <-- this one doesn't actually work.
+        "mdemos.server",
+        #"mdemos.feeds",  # <-- this one doesn't actually work.
     ],
 )
